@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="226" pageHeight="226" columnWidth="186" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6e8a73b0-1993-4f9d-bb7b-cb4e10b83727">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="226" height="20" backcolor="#006699" uuid="3534ae0c-5f35-47e8-9910-60214c0c8c9e"/>
+				<staticText>
+					<reportElement x="0" y="0" width="50" height="20" forecolor="#FFFFFF" uuid="0415fec6-5b9b-4089-9ba7-f14f8ea73b60"/>
+					<textElement verticalAlignment="Top">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Boleto]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="0" width="34" height="20" forecolor="#FFFFFF" uuid="28270cfa-503b-4c9b-86d1-2b62b1ce5aae"/>
+					<textElement verticalAlignment="Top">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Folio:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="84" y="0" width="142" height="20" forecolor="#FFFFFF" uuid="bd199e11-8e75-456d-a985-6a8fb35130b9"/>
+					<textElement verticalAlignment="Top">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[0000000000000052]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21"/>
+	</columnHeader>
+	<detail>
+		<band height="20"/>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17"/>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>
